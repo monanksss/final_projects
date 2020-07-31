@@ -1,0 +1,99 @@
+body {
+    background-image: url(img/glamour-background-13614074.png);
+    height: 1200px;
+    width: 700px;
+}
+#totalScores{
+    top: 100px;
+    position: relative;
+    color: lime;
+    display: inline-block;
+}
+.box{
+    width: 650px;
+    height: 115px;
+    left: 300px;
+    top: 170px;
+    position: relative;
+}
+#hint{
+    left: 550px;
+    top: 100px;
+    position: relative;
+    color: lime;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.display{
+    display: none;
+}
+h1 {
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(235, 69, 4);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 300px
+}
+h2 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    top: 160px;
+    left: 250px;
+}
+.answer{
+    top: 250px;
+    left: 350px;
+    position: relative;
+}
+.img2{
+    height: 50px;
+    width: 200px;
+    margin: 30px;
+}
+#position{
+    position: absolute;
+}
+#h{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 650px;
+    left: 500px;
+    position: relative;
+
+}
+
+#play{
+    top:550px;
+    left: 300px;
+    position: relative;
+    margin: 50px;
+}
+#play2{
+    top:650px;
+    left: 500px;
+    position: relative;
+    margin: 50px;
+}
+
+#how2play{
+    top: 500px;
+    left: 300px;
+    position: relative;
+    color: rgb(161, 0, 0);
+    font-size: 25px;
+}
+#thanks{
+    top: 500px;
+    left: 300px;
+    position: relative;
+    color: rgb(4, 37, 107);
+    font-size: 75px;
+}

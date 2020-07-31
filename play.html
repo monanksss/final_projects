@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2 id="totalScores">Scores : 0</h2>
+        <button id="hint"><img src="img/hint.png" width="150"/></button>
+    </div>
+    <div id="position1">
+        <div class="box"><img id="display" src="img/rsz_1nicholas.jpg" width="650"/></div>
+        <div class="box"><img src="img/rsz_nicholas.jpg" width="650" height="115"/></div>
+        <div class="box"><img id="display2" src="img/rsz_2nicholas.jpg" width="650"/></div>
+    </div>
+    <div id="position2">
+        <div class="box"><img id="2display" src="img/rsz_1wulan-guritno.jpg" width="650"/></div>
+        <div class="box"><img src="img/rsz_wulan-guritno.jpg" width="650" height="115"/></div>
+        <div class="box"><img id="2display2" src="img/rsz_2wulan-guritno.jpg" width="650"/></div>
+    </div>
+    <div id="position3">
+        <div class="box"><img id="3display" src="img/rsz_1chico.jpg" width="650" height="115"/></div>
+        <div class="box"><img src="img/rsz_chico.jpg" width="650" height="115"/></div>
+        <div class="box"><img id="3display2" src="img/rsz_2chico.jpg" width="650"/></div>
+    </div>
+    <br/>
+    <div>
+        <h2>GUESS WHO ?</h2>
+    </div>
+    <div id="answer1">
+        <a class="answer" href="#" onmousedown="bleep.play()"><img class="img2" src="img/a-adipati.png"/></a>
+        <a class="answer" id="benar" href="#" onmousedown="bleep2.play()"><img class="img2" src="img/b-nico.png"/></a><br>
+        <a class="answer" href="#" onmousedown="bleep.play()"><img class="img2" src="img/c-reza.png"/></a>
+        <a class="answer" href="#" onmousedown="bleep.play()"><img class="img2" src="img/d-chicco.png"/></a>
+    </div>
+    <div id="answer2">
+        <a class="answer" href="#" onmousedown="bleep.play()"><img class="img2" src="img/acha.png"/></a>
+        <a class="answer" href="#" onmousedown="bleep.play()"><img class="img2" src="img/nafa.png"/></a><br>
+        <a class="answer" href="#" onmousedown="bleep.play()"><img class="img2" src="img/marissa.png"/></a>
+        <a class="answer" id="benar2" href="#" onmousedown="bleep2.play()"><img class="img2" src="img/wulan.png"/></a>
+    </div>
+    <div id="answer3">
+        <a class="answer" id="benar" href="./thanks.html" onmousedown="bleep2.play()"><img class="img2" src="img/a-chicco.png"/></a>
+        <a class="answer" href="./thanks.html" onmousedown="bleep.play()"><img class="img2" src="img/b-reza.png"/></a><br>
+        <a class="answer" href="./thanks.html" onmousedown="bleep.play()"><img class="img2" src="img/c-fedi.png"/></a>
+        <a class="answer" href="./thanks.html" onmousedown="bleep.play()"><img class="img2" src="img//d-vino.png"/></a>
+    </div>
+    <script src="myscript.js">    
+    </script>
+</body>
+</html>
